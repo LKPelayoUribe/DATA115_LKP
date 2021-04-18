@@ -16,5 +16,6 @@ I pulled in the stock prices into R using library(tidyquant). The stock prices a
 
 ## Analysis
 
+<img src="https://raw.githubusercontent.com/LKPelayoUribe/DATA115_LKP/main/OpenRiotVsOpenBTC.PNG">
 
-
+I 
