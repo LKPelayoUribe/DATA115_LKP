@@ -21,4 +21,5 @@ I pulled in the stock prices into R using library(tidyquant). The stock prices a
 <img src="https://raw.githubusercontent.com/LKPelayoUribe/DATA115_LKP/main/RIOTCloseVsBTCClose.PNG">
 
 We can see correlation between the opening prices of Riot and BTC as well as the closing prices of Riot and BTC. What I find interesting is how strong the correlation is when BTC was below 20k, what some would have considered a “stable” state. BTC has been growing rapidly the last few months and BTC is still finding a price to settle into. BTC is unstable right now and Riot shows that because of how scattered the price becomes when BTC is above 20k, but Riot is still trending upwards with BTC. 
+
 There are many ways to analyze stocks and crypto, but I think there is potential future analysis to be done as cryptocurrencies become adopted by companies that use the new technology they offer. 
