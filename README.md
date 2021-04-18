@@ -18,4 +18,4 @@ I pulled in the stock prices into R using library(tidyquant). The stock prices a
 
 <img src="https://raw.githubusercontent.com/LKPelayoUribe/DATA115_LKP/main/OpenRiotVsOpenBTC.PNG">
 
-<img src="https://github.com/LKPelayoUribe/DATA115_LKP/blob/main/CloseRiotVsOpenBTC.PNG">
+<img src="">
