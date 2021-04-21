@@ -3,10 +3,10 @@
 
 
 ## Motivation
-Is there be a relationship between stocks that have a direct relationship to a specific cryptocurrency? Bitcoin was the first cryptocurrency, and it uses blockchain technology. A single Bitcoin was worth less than a penny in 2010 now in 2021 it has surpassed $60,000. Riot Blockchain is a company that mainly focuses on creating the software to mine Bitcoin. Does the stock price of Riot depend on the current price of Bitcoin? Riot was just above a dollar a year ago and now it is at $49. BTC was struggling just to stay at 10k a year ago but after the crash in March of 2020, it dropped to 5K but it has been on the rise, right now at 60k.
+Is there a relationship between stocks that have a direct connection to a specific cryptocurrency? Bitcoin, the first cryptocurrency, was worth less than a penny in 2010 but now in 2021 it has surpassed $60,000. Riot Blockchain is a company that mainly focuses on creating the software to mine Bitcoin. Does the stock price of Riot depend on the current price of Bitcoin? 
 
 ## Data Process
-I pulled in the stock prices into R using library(tidyquant). The stock prices are from Yahoo finance. I made the choice of using over a years’ worth of data from March 02, 2020 to March 19, 2021 because a lot has happened during this time. Especially because the pandemic crashed the market, affecting both stock and crypto, in a sense “resetting” their prices. Once I pulled in my data, the cleaning process began. There are many differences in stock and crypto. For example, RIOT only trades Monday-Friday from 9:30AM-4PM. Cryptocurrencies do not have a set “open” and “close” time, they are available for trade 24/7. When cleaning the data, I removed the weekend dates for BTC in order to have each date have a match. 
+I pulled in the stock prices into R using library(tidyquant). The stock prices are from Yahoo finance. I made the choice of using over a years’ worth of data from March 02, 2020 to March 19, 2021. The pandemic crashed both the stock and crypto market, in a sense “resetting” their prices and I wanted to see how RIOT and BTC overcame the crash. Once I pulled in my data, the cleaning process began. Stocks only trade Monday-Friday from 9:30AM-4PM Eastern time. Cryptocurrencies do not have a set “open” and “close” time, they are available for trade on the exchange 24/7. When cleaning the data, I removed the weekend dates for BTC in order to have each date have a match. I also removed the trading volume column, I only focused on open and closing prices analysis. 
 
 ## Price Distribution for Bitcoin and Riot Blockchain
 
@@ -20,6 +20,4 @@ I pulled in the stock prices into R using library(tidyquant). The stock prices a
 
 <img src="https://raw.githubusercontent.com/LKPelayoUribe/DATA115_LKP/main/RIOTCloseVsBTCClose.PNG">
 
-We can see correlation between the opening prices of Riot and BTC as well as the closing prices of Riot and BTC. What I find interesting is how strong the correlation is when BTC was below 20k, what some would have considered a “stable” state. BTC has been growing rapidly the last few months and BTC is still finding a price to settle into. BTC is unstable right now and Riot shows that because of how scattered the price becomes when BTC is above 20k, but Riot is still trending upwards with BTC. 
-
-There are many ways to analyze stocks and crypto, but I think there is potential future analysis to be done as cryptocurrencies become adopted by companies that use the new technology they offer. 
+We can see correlation between the opening prices of Riot and BTC as well as the closing prices of Riot and BTC. What I find interesting is how strong the correlation is when BTC was below 20k, what some would have considered a “stable” state. BTC has been growing rapidly the last few months and BTC is still finding a new price to settle into. BTC is unstable right now and Riot shows that because of how scattered the price becomes when BTC is above 20k, unable to settle on the line with BTC as it was when BTC was stable. Regardless, Riot is still trending upwards with BTC. 
